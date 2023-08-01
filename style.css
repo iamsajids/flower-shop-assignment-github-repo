@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* This is Header Section*/
+.banner-container{
+    height: 850px;
+    background-color:rgba(229, 84, 115, 0.10);
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.titel-text{
+
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+
+}
+.describe{
+
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.btn-titel{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+padding: 20px 43px 20px 43px;
+border: 0px;
+border-radius: 8px;
+background: #E55473;
+}
+.banner-img{
+
+    width: 635px;
+height: 800px;
+
+}

@@ -118,3 +118,18 @@ line-height: 30px; /* 166.667% */
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+/* Service Section*/
+
+.services{
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px auto;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 5px;
+    background-color: rgb(247, 241, 241);
+}

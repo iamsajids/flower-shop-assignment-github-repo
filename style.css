@@ -186,3 +186,21 @@ gap: 10px;
     width: 70%;
 }
 
+/* -- Instagram section design starts from here ---*/
+
+.instagram{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.albums{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.albums img{
+    width: 20%;
+}
+

@@ -204,3 +204,25 @@ gap: 10px;
     width: 20%;
 }
 
+/* latest deal section design starts from here  */
+#latest-deals{
+    width: 1440px;
+height: 449px;
+border-radius: 8px;
+    margin: 8rem auto;
+    padding: 6px 0;
+    text-align: center;
+    background-image: url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#latest-deals input{
+    width: 50%;
+    padding: .66rem .5rem;
+    border-radius: .3rem;
+    border: 0;
+    outline: 0;
+}
+

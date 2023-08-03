@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* This is Header Section*/
+.banner-container{
+    height: 850px;
+    background-color:rgba(229, 84, 115, 0.10);
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.titel-text{
+
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+
+}
+.describe{
+
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.btn-titel{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+padding: 20px 43px 20px 43px;
+border: 0px;
+border-radius: 8px;
+background: #E55473;
+}
+.banner-img{
+
+    width: 635px;
+height: 800px;
+
+}
+
+/* This is featured flowers section */
+.featured-flowers {
+    height: 800px;
+    margin: 180px 120px 180px;
+}
+.featured-flowers-content-texts {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-titel{
+
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.section-description{
+
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+/* Featured Flowers img */
+
+.featured-flowers-pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-flower-border{
+
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.first-featured-img {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.second-featured-img {
+    display: flex;
+    align-items: center;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.third-featured-img {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flowers-img-texts {
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* Service Section*/
+
+.services{
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px auto;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 5px;
+    background-color: rgb(247, 241, 241);
+}
+
+/* Hot Deal Section*/
+.hot-deal{
+
+    background-color: #fef8fa;
+
+}
+
+.deal{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+span{
+    color: #E55473;
+}
+
+.details{
+
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.btn-2{
+
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 0px;
+background: #E55473;
+
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.deal .img img{
+    width: 70%;
+}
+
+/* -- Instagram section design starts from here ---*/
+
+.instagram{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.albums{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.albums img{
+    width: 20%;
+}
+
+/* latest deal section design starts from here  */
+#latest-deals{
+    width: 1440px;
+height: 449px;
+border-radius: 8px;
+    margin: 8rem auto;
+    padding: 6px 0;
+    text-align: center;
+    background-image: url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#latest-deals input{
+    width: 50%;
+    padding: .66rem .5rem;
+    border-radius: .3rem;
+    border: 0;
+    outline: 0;
+}
+/* Footer Section*/
+footer{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 8rem 0  .5rem 0;
+    
+}
+
+footer p{
+    font-size: .7em;
+    margin: 1.5rem 0;
+    color: rgb(255, 255, 255);
+}
